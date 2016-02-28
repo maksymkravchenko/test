@@ -13,6 +13,7 @@
 		9F906F1F1C820F42000DF379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F906F1D1C820F42000DF379 /* Main.storyboard */; };
 		9F906F211C820F42000DF379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F906F201C820F42000DF379 /* Assets.xcassets */; };
 		9F906F241C820F42000DF379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F906F221C820F42000DF379 /* LaunchScreen.storyboard */; };
+		9F906F2D1C822CA7000DF379 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F906F2C1C822CA7000DF379 /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9F906F201C820F42000DF379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F906F231C820F42000DF379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F906F251C820F42000DF379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F906F2B1C822CA7000DF379 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		9F906F2C1C822CA7000DF379 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				9F906F181C820F42000DF379 /* AppDelegate.m */,
 				9F906F1A1C820F42000DF379 /* ViewController.h */,
 				9F906F1B1C820F42000DF379 /* ViewController.m */,
+				9F906F2B1C822CA7000DF379 /* ListTableViewController.h */,
+				9F906F2C1C822CA7000DF379 /* ListTableViewController.m */,
 				9F906F1D1C820F42000DF379 /* Main.storyboard */,
 				9F906F201C820F42000DF379 /* Assets.xcassets */,
 				9F906F221C820F42000DF379 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				9F906F1C1C820F42000DF379 /* ViewController.m in Sources */,
 				9F906F191C820F42000DF379 /* AppDelegate.m in Sources */,
 				9F906F161C820F42000DF379 /* main.m in Sources */,
+				9F906F2D1C822CA7000DF379 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +307,7 @@
 				9F906F2A1C820F42000DF379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
